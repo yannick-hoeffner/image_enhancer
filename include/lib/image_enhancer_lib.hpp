@@ -3,4 +3,4 @@
 
 int test_parallel();
 
-#endif // IMAGE_ENHANCER_LIB_HPP
+#endif  // IMAGE_ENHANCER_LIB_HPP

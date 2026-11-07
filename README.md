@@ -15,3 +15,12 @@ Run the application:
 ```bash
 ./build/ImageEnhancer
 ```
+
+# Format the code
+
+This software uses [clang-format](https://clang.llvm.org/docs/ClangFormat.html) for automatically formatting the cpp code.
+Use the following command from the root directory:
+
+```bash
+clang-format -i include/**/*.hpp src/**/*.cpp
+```

@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "lib/image_enhancer_lib.hpp"
 
 int main() {

@@ -1,8 +1,8 @@
-#include <iostream>
 #include <omp.h>
 
-int test_parallel()
-{
+#include <iostream>
+
+int test_parallel() {
 #pragma omp parallel
     {
         int thread_id = omp_get_thread_num();
