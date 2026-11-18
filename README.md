@@ -13,7 +13,7 @@ cmake --build build
 
 Run the application:
 ```bash
-./build/ImageEnhancer
+./build/app/ImageEnhancerApp
 ```
 
 # Format the code
@@ -22,5 +22,5 @@ This software uses [clang-format](https://clang.llvm.org/docs/ClangFormat.html) 
 Use the following command from the root directory:
 
 ```bash
-clang-format -i include/**/*.hpp src/**/*.cpp
+find . -iname '*.hpp' -o -iname '*.cpp' | xargs clang-format -i
 ```

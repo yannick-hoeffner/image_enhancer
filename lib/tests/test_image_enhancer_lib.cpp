@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "lib/image_enhancer_lib.hpp"
+#include "image_enhancer_lib.hpp"
 
 int main() {
     // assert that test_parallel returns 0
