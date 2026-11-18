@@ -7,13 +7,19 @@ This is a university project during the winter term 2026/2027 at FSU Jena for th
 
 Configure and build the project from the repository root (in Release configuration):
 ```bash
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build
+mkdir build; cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build .
 ```
 
 Run the application:
 ```bash
 ./build/app/ImageEnhancerApp
+```
+
+Run the tests:
+```bash
+ctest
 ```
 
 # Format the code

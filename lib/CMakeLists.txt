@@ -14,4 +14,6 @@ add_executable(ImageEnhancerTests)
 file(GLOB_RECURSE TEST_SOURCES "tests/*.cpp")
 target_sources(ImageEnhancerTests PRIVATE ${TEST_SOURCES})
 target_include_directories(ImageEnhancerTests PUBLIC "include")
-target_link_libraries(ImageEnhancerTests PRIVATE ImageEnhancerLib)
+target_link_libraries(ImageEnhancerTests PRIVATE ImageEnhancerLib PRIVATE catch)
+
+add_test(NAME ImageEnhancerTests COMMAND ImageEnhancerTests)
