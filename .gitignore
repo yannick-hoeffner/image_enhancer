@@ -1,3 +1,5 @@
 # ignore CMAKE build folder
 build/
 .vscode/
+
+paper/paper.pdf
